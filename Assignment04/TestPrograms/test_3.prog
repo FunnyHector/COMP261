@@ -1,0 +1,15 @@
+$abc = 8;
+$efg = add(5,5);
+$efg = 3;
+$efg = sub(9,3);
+
+if (eq($efg, 6)) {
+move(3);
+} elif (gt($efg, 6)) {
+move(2);
+} elif (lt($efg, 6)) {
+move(1);
+} else {
+turnL;
+move(2);
+}

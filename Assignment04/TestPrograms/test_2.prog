@@ -1,0 +1,11 @@
+
+if (and(gt(5,0), lt(5,0))) {
+move(5);
+}elif (not(not(not(gt(5,0))))) {
+move (4);
+}elif(and(not(eq(5,5)), not(eq(1,1)))) {
+move(3);
+}elif(gt(add(3,2), sub(5,1))){
+move(2);
+}else {
+move;}

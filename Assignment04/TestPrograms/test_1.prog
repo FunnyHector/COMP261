@@ -1,0 +1,9 @@
+if (gt(1,2)) { move;
+turnL;move;
+
+turnR; move;
+turnR;move;turnR;move;turnR;move;
+turnL;move;turnL;move;turnL;
+
+wait; }
+
